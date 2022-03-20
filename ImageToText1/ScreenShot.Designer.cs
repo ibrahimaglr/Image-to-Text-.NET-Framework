@@ -45,8 +45,9 @@ namespace ImageToText1
             this.panel2.Controls.Add(this.panel1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(267, 92);
+            this.panel2.Size = new System.Drawing.Size(356, 113);
             this.panel2.TabIndex = 1;
             // 
             // panel1
@@ -57,9 +58,10 @@ namespace ImageToText1
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.button2);
-            this.panel1.Location = new System.Drawing.Point(52, 12);
+            this.panel1.Location = new System.Drawing.Point(69, 15);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(162, 61);
+            this.panel1.Size = new System.Drawing.Size(216, 75);
             this.panel1.TabIndex = 0;
             // 
             // button3
@@ -73,9 +75,10 @@ namespace ImageToText1
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = global::ImageToText.Properties.Resources.icons8_take_screenshoT;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button3.Location = new System.Drawing.Point(61, -5);
+            this.button3.Location = new System.Drawing.Point(81, -6);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(48, 68);
+            this.button3.Size = new System.Drawing.Size(64, 84);
             this.button3.TabIndex = 2;
             this.button3.Text = "F2";
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -91,9 +94,10 @@ namespace ImageToText1
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(124, 0);
+            this.button1.Location = new System.Drawing.Point(165, 0);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(38, 35);
+            this.button1.Size = new System.Drawing.Size(51, 43);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -109,9 +113,10 @@ namespace ImageToText1
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = global::ImageToText.Properties.Resources.icons8_gallery_64;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.Location = new System.Drawing.Point(7, -5);
+            this.button2.Location = new System.Drawing.Point(9, -6);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(48, 68);
+            this.button2.Size = new System.Drawing.Size(64, 84);
             this.button2.TabIndex = 1;
             this.button2.Text = "F1";
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -120,15 +125,16 @@ namespace ImageToText1
             // 
             // ScreenShot
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.ClientSize = new System.Drawing.Size(267, 141);
+            this.ClientSize = new System.Drawing.Size(356, 174);
             this.Controls.Add(this.panel2);
             this.Cursor = System.Windows.Forms.Cursors.Cross;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ScreenShot";

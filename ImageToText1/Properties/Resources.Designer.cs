@@ -63,16 +63,6 @@ namespace ImageToText.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static System.Drawing.Bitmap _Image_To_Text__2_ {
-            get {
-                object obj = ResourceManager.GetObject("_Image To Text (2)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
         internal static System.Drawing.Bitmap icons8_add_image_80 {
             get {
                 object obj = ResourceManager.GetObject("icons8-add-image-80", resourceCulture);
@@ -126,6 +116,16 @@ namespace ImageToText.Properties {
         internal static System.Drawing.Bitmap icons8_take_screenshoT {
             get {
                 object obj = ResourceManager.GetObject("icons8-take-screenshoT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo {
+            get {
+                object obj = ResourceManager.GetObject("logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

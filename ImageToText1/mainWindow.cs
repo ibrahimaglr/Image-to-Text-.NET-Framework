@@ -62,7 +62,6 @@ namespace ImageToText1
         {
             try
             {
-                //seçtiği dilden çeivrme
                 switch (comboBox1.SelectedIndex)
                 {
 
@@ -96,20 +95,15 @@ namespace ImageToText1
                         }
                         break;
                 }
-
-
             }
             catch (Exception exception)
             {
-                MessageBox.Show("hata kodu1 \n" + exception.Message);
+                MessageBox.Show("Image to Text : ERROR CODE 001 \n" + exception.Message);
             }
-
-
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //dil seçimi
             ImageToText.Properties.Settings.Default.Launge = comboBox1.SelectedIndex;
             ImageToText.Properties.Settings.Default.Save();
         }
@@ -148,8 +142,6 @@ namespace ImageToText1
                 {
                     hookedKey.HookedKeys.Add((Keys)ImageToText.Properties.Settings.Default.Key);
                 }
-                // 
-
                 hookedKey.KeyUp += new KeyEventHandler(ResultHandler);
             }
             catch (Exception) { }
@@ -195,8 +187,6 @@ namespace ImageToText1
                 Application.Restart();
                 Environment.Exit(0);
             }
-
-
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)

@@ -15,25 +15,31 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_0C1A7FF68E4A45DCAC76DD26D7CF5463"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_0E4D66A1884C45FCB88C99392D1A7D27"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_2FA7DBB54AEA487D9CF0D7806A7A7815"
+        "MsmKey" = "8:_18B925006BDC4C2CA52086251F67E404"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_339154B533FB4127978C31FBB46BE1EB"
+        "MsmKey" = "8:_333EC7800B124CA6BF24D9902B676ABD"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_5258971991DA4CD8AAE172A02181E08E"
+        "MsmKey" = "8:_540D7435E3D34BDBAA373C9C1D878373"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -45,19 +51,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_894E27CF171E4482B264D335241EC6D5"
+        "MsmKey" = "8:_7BDA0AFA12464043B62E3FFEC79E3C52"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A29E74B97CA740808C1EA2F99CD91CA5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_B0C46A8636ED46A3875F550A860E2E22"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_CB7AE3FEDEA84472AF37421CAF5FF9A5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -75,7 +81,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_EAA5473D5D1C46459A60B7FAD8E836BB"
+        "MsmKey" = "8:_E5E5ABF4522F435FB2529F1B08D37730"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -115,6 +121,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -131,6 +153,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -160,6 +198,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0C1A7FF68E4A45DCAC76DD26D7CF5463"
+            {
+            "SourcePath" = "8:..\\ImageToText1\\bin\\Debug\\x86\\tesseract41.dll"
+            "TargetName" = "8:tesseract41.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_57B4A20B524244DD8338DF4D224E4528"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0E4D66A1884C45FCB88C99392D1A7D27"
             {
             "SourcePath" = "8:..\\ImageToText1\\bin\\Debug\\tessdata\\eng.traineddata"
@@ -180,12 +238,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2FA7DBB54AEA487D9CF0D7806A7A7815"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_18B925006BDC4C2CA52086251F67E404"
             {
-            "SourcePath" = "8:..\\ImageToText1\\bin\\Debug\\x64\\liblept1753.dll"
-            "TargetName" = "8:liblept1753.dll"
+            "SourcePath" = "8:..\\ImageToText1\\bin\\Debug\\x86\\leptonica-1.80.0.dll"
+            "TargetName" = "8:leptonica-1.80.0.dll"
             "Tag" = "8:"
-            "Folder" = "8:_BFD0891F4BFE4146BCEC274582DA410A"
+            "Folder" = "8:_57B4A20B524244DD8338DF4D224E4528"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -200,10 +258,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_339154B533FB4127978C31FBB46BE1EB"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_333EC7800B124CA6BF24D9902B676ABD"
             {
-            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\rounded-in-photoretrica.ico"
-            "TargetName" = "8:icon.ico"
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\LICENSE.rtf"
+            "TargetName" = "8:LICENSE.rtf"
             "Tag" = "8:"
             "Folder" = "8:_1AA1979FB95E499E9581D0A7DB8818B3"
             "Condition" = "8:"
@@ -220,12 +278,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5258971991DA4CD8AAE172A02181E08E"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_540D7435E3D34BDBAA373C9C1D878373"
             {
-            "SourcePath" = "8:..\\ImageToText1\\bin\\Debug\\x86\\libtesseract3052.dll"
-            "TargetName" = "8:libtesseract3052.dll"
+            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\imagetotext.ico"
+            "TargetName" = "8:imagetotext.ico"
             "Tag" = "8:"
-            "Folder" = "8:_57B4A20B524244DD8338DF4D224E4528"
+            "Folder" = "8:_1AA1979FB95E499E9581D0A7DB8818B3"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -244,7 +302,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Tesseract, Version=3.3.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Tesseract, Version=4.1.1.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_55ADE1E983A2B89978D6E32490D9AA2B"
@@ -271,10 +329,30 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_894E27CF171E4482B264D335241EC6D5"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7BDA0AFA12464043B62E3FFEC79E3C52"
             {
-            "SourcePath" = "8:..\\ImageToText1\\bin\\Debug\\x64\\libtesseract3052.dll"
-            "TargetName" = "8:libtesseract3052.dll"
+            "SourcePath" = "8:..\\ImageToText1\\bin\\Debug\\x64\\leptonica-1.80.0.dll"
+            "TargetName" = "8:leptonica-1.80.0.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_BFD0891F4BFE4146BCEC274582DA410A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A29E74B97CA740808C1EA2F99CD91CA5"
+            {
+            "SourcePath" = "8:..\\ImageToText1\\bin\\Debug\\x64\\tesseract41.dll"
+            "TargetName" = "8:tesseract41.dll"
             "Tag" = "8:"
             "Folder" = "8:_BFD0891F4BFE4146BCEC274582DA410A"
             "Condition" = "8:"
@@ -297,26 +375,6 @@
             "TargetName" = "8:tur.traineddata"
             "Tag" = "8:"
             "Folder" = "8:_6A958E03133444B5AA0ADBB5C1F70456"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CB7AE3FEDEA84472AF37421CAF5FF9A5"
-            {
-            "SourcePath" = "8:..\\ImageToText1\\bin\\Debug\\x86\\liblept1753.dll"
-            "TargetName" = "8:liblept1753.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_57B4A20B524244DD8338DF4D224E4528"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -393,7 +451,7 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EAA5473D5D1C46459A60B7FAD8E836BB"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E5E5ABF4522F435FB2529F1B08D37730"
             {
             "SourcePath" = "8:..\\ImageToText1\\bin\\Debug\\tessdata\\pdf.ttf"
             "TargetName" = "8:pdf.ttf"
@@ -501,15 +559,15 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:ImagetoText Framework"
+        "ProductName" = "8:ImagetoText"
         "ProductCode" = "8:{58ACC700-71BE-42C4-B2E9-D5FED33E5759}"
-        "PackageCode" = "8:{DAF1E9F3-2944-4C24-9A77-B94AF208F6E3}"
+        "PackageCode" = "8:{26CF4836-BF8F-417C-8C15-122B5DAF9BA4}"
         "UpgradeCode" = "8:{FE5C1681-AFEC-44DD-8942-21FEADEE3C24}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
+        "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:ImagetoText"
         "ARPHELPTELEPHONE" = "8:"
@@ -520,7 +578,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:Image to Text v1.0.0"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:_339154B533FB4127978C31FBB46BE1EB"
+        "ARPPRODUCTICON" = "8:_540D7435E3D34BDBAA373C9C1D878373"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -634,7 +692,7 @@
             "Target" = "8:_D96333248A1E495C93C042C6E832CCD5"
             "Folder" = "8:_46E78238F977480CBFAAD162BBE41571"
             "WorkingFolder" = "8:_1AA1979FB95E499E9581D0A7DB8818B3"
-            "Icon" = "8:_339154B533FB4127978C31FBB46BE1EB"
+            "Icon" = "8:_540D7435E3D34BDBAA373C9C1D878373"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7B1DF2E5B9BA493989E47A1E55867B94"
@@ -648,7 +706,7 @@
             "Target" = "8:_D96333248A1E495C93C042C6E832CCD5"
             "Folder" = "8:_412FB2EC49E8440FABA4989B95C27D6C"
             "WorkingFolder" = "8:_1AA1979FB95E499E9581D0A7DB8818B3"
-            "Icon" = "8:_339154B533FB4127978C31FBB46BE1EB"
+            "Icon" = "8:_540D7435E3D34BDBAA373C9C1D878373"
             "Feature" = "8:"
             }
         }
@@ -713,7 +771,7 @@
                 {
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_03836006F79B488E9E4EA9FA341BF57F"
                     {
-                    "Sequence" = "3:100"
+                    "Sequence" = "3:110"
                     "DisplayName" = "8:İlerleme Durumu"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
@@ -849,6 +907,53 @@
                             "Setting" = "3:1"
                             "Value" = "8:#1203"
                             "DefaultValue" = "8:#1203"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_02674040A8B144D3BFFC036592E608EA"
+                    {
+                    "Sequence" = "3:110"
+                    "DisplayName" = "8:Lisans Sözleşmesi"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminLicenseDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "EulaText"
+                            {
+                            "Name" = "8:EulaText"
+                            "DisplayName" = "8:#1008"
+                            "Description" = "8:#1108"
+                            "Type" = "3:6"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:2"
+                            "Value" = "8:_333EC7800B124CA6BF24D9902B676ABD"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Sunken"
+                            {
+                            "Name" = "8:Sunken"
+                            "DisplayName" = "8:#1007"
+                            "Description" = "8:#1107"
+                            "Type" = "3:5"
+                            "ContextData" = "8:4;True=4;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:4"
+                            "DefaultValue" = "3:4"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -1007,6 +1112,53 @@
                             "Setting" = "3:1"
                             "Value" = "8:#1203"
                             "DefaultValue" = "8:#1203"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_5CF05E0E0A4A46A5A9F02296014E30A3"
+                    {
+                    "Sequence" = "3:110"
+                    "DisplayName" = "8:Lisans Sözleşmesi"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdLicenseDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "EulaText"
+                            {
+                            "Name" = "8:EulaText"
+                            "DisplayName" = "8:#1008"
+                            "Description" = "8:#1108"
+                            "Type" = "3:6"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:2"
+                            "Value" = "8:_333EC7800B124CA6BF24D9902B676ABD"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Sunken"
+                            {
+                            "Name" = "8:Sunken"
+                            "DisplayName" = "8:#1007"
+                            "Description" = "8:#1107"
+                            "Type" = "3:5"
+                            "ContextData" = "8:4;True=4;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:4"
+                            "DefaultValue" = "3:4"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
