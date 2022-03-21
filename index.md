@@ -4,6 +4,8 @@ You can use the [editor on GitHub](https://github.com/ibrahimaglr/Image-to-Text-
 
 ### Download Project
 [Portable.zip](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/raw/gh-pages/Image-to-Text-Portable.zip)
+
+
 [Setup.msi](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/Image-to-Text-.NET-Framework/raw/gh-pages/ImagetoText_Setup.msi)
 
 ### Support or Contact
