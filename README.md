@@ -3,7 +3,11 @@
 </p>
 
 # Image-to-Text-.NET-Framework
-[![Image-to-Text-.NET-Framework Download](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/)](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/)
+
+### Download
+[GitHub Page](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/)
+[Portable.zip](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/Image-to-Text-Portable.zip)
+[Setup.msi](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/ImagetoText_Setup.msi)
 
 ### Available Features
 
@@ -16,7 +20,7 @@
 ### Current Bugs
 * start with windows feature doesn't read keyboard hooks (it fixes when i turn it off and on)
 * If the window scale and layout is above 100%, half of the screenshot is taken. 
-# Main Window
+## Main Window
 * language pack selection
 * button to read text from the image you choose
 * keyboard shortcut selection
@@ -27,7 +31,7 @@
 
 
 
-# ScreenShot Panel
+## ScreenShot Panel
 * You can access this panel with the keyboard key you assigned from the main form.
 * F1 displays the original image of the text that was last copied to memory
 * F2 switches to new excerpt window (clicks anywhere on the screen while in this form)
@@ -36,7 +40,7 @@
   <img src="media/Screenshotpanel.png" width="500px">
 </p>
 
-# Sample
+## Sample
 results of plain text document (readable background and text color)
 It will show a notification when text reading is complete, if you click on the notification it will create a file in the 'temp' folder and show the text copied to memory.
 If we compare the results with the original text, it can be seen that tesseract ocr gives above-average results, but objectively these results are not enough for users.
