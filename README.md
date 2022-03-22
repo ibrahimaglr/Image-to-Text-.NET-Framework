@@ -3,6 +3,8 @@
 </p>
 
 # Image-to-Text-.NET-Framework
+[![Downloads](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/)](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/)
+
 ### Available Features
 
 * convert the screenshot it takes to text
