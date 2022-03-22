@@ -3,7 +3,6 @@
 </p>
 
 # Image-to-Text-.NET-Framework
-### [GitHub Pages](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/)
 ### Downloads
 * [Portable.zip](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/Image-to-Text-Portable.zip)
 * [Setup.msi](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/ImagetoText_Setup.msi)
