@@ -34,7 +34,8 @@
   <img src="media/Screenshotpanel.png" width="500px">
 </p>
 
-# Exampleresults of plain text document (readable background and text color)
+# Sample
+results of plain text document (readable background and text color)
 It will show a notification when text reading is complete, if you click on the notification it will create a file in the 'temp' folder and show the text copied to memory.
 If we compare the results with the original text, it can be seen that tesseract ocr gives above-average results, but objectively these results are not enough for users.
 ### OUTPUTs
