@@ -3,7 +3,7 @@
 </p>
 
 # Image-to-Text-.NET-Framework
-[![Downloads](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/)](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/)
+[![Image-to-Text-.NET-Framework Download](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/)](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/)
 
 ### Available Features
 
