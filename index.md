@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Thanks for downloading Image to Text
 
 
 ### Download Project
@@ -6,6 +6,3 @@
 
 
 [Setup.msi](https://ibrahimaglr.github.io/Image-to-Text-.NET-Framework/ImagetoText_Setup.msi)
-
-### Support or Contact
-
